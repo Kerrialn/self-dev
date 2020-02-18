@@ -6,7 +6,7 @@ namespace PaymentSystem
     {
         static void Main(string[] args)
         {
-            var paymentType = new WorldPay();
+            var paymentType = new ApplyPay();
             var gateway = new PaymentGateway();
             gateway.TakePayment(paymentType, 350);
 
@@ -20,7 +20,7 @@ namespace PaymentSystem
 
     interface IFrudCheck
     {
-        public void FrudCheck();
+        public bool FrudCheck();
     }
 
     interface IProcessPayment
@@ -71,7 +71,22 @@ namespace PaymentSystem
 
     class ApplyPay : IPayment, I3Dcheck, IProcessPayment, IFrudCheck
     {
-        public void FrudCheck() { }
+        public bool FrudCheck() {
+            Console.WriteLine("are you a fraudster?");
+            var answer = Console.ReadLine();
+            
+            if(answer == "no")
+            {
+                Console.WriteLine("shame, we are!");
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("Woooo Hoooo! Let's start scamming people! ");
+                return true;
+            }
+
+        }
         public bool ThreeDCheck() {
             Console.WriteLine("3D Security check: please enter your security pin");
             var pin = Console.ReadLine();
@@ -82,9 +97,10 @@ namespace PaymentSystem
         }
         public void Process(double amount)
         {
-            this.FrudCheck();
-            this.ThreeDCheck();
-            this.Pay(amount);
+            if (this.ThreeDCheck() == true && this.FrudCheck() == true)
+            {
+                this.Pay(amount);
+            }
         }
 
     }
