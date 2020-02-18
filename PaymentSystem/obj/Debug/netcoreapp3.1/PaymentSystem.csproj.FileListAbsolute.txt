@@ -1,0 +1,11 @@
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.exe
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.deps.json
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.runtimeconfig.json
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.runtimeconfig.dev.json
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.dll
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\bin\Debug\netcoreapp3.1\PaymentSystem.pdb
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\obj\Debug\netcoreapp3.1\PaymentSystem.csprojAssemblyReference.cache
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\obj\Debug\netcoreapp3.1\PaymentSystem.AssemblyInfoInputs.cache
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\obj\Debug\netcoreapp3.1\PaymentSystem.AssemblyInfo.cs
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\obj\Debug\netcoreapp3.1\PaymentSystem.dll
+C:\Users\Foxy\source\repos\PaymentSystem\PaymentSystem\obj\Debug\netcoreapp3.1\PaymentSystem.pdb
