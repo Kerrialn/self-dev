@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SelfDev
 {
-
+    
     class Shape
     {
         virtual public void Draw() { }
@@ -31,6 +31,17 @@ namespace SelfDev
             Console.WriteLine("Triangle has been drawn");
         }
     }
+
+    class Lemniscate : Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Lemniscate has been drawn");
+        }
+    }
 }
+
+
+
 
 

@@ -6,17 +6,17 @@ namespace SelfDev
 {
     interface IPayment
     {
-        public void Pay(double amount);
+        void Pay(double amount);
     }
 
     interface IFrudCheck
     {
-        public bool FrudCheck();
+         bool FrudCheck();
     }
 
     interface IProcessPayment
     {
-        public void Process(double amount);
+         void Process(double amount);
     }
 
     interface I3Dcheck
