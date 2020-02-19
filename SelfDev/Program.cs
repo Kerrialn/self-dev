@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PaymentSystem
+namespace SelfDev
 {
     class Program
     {

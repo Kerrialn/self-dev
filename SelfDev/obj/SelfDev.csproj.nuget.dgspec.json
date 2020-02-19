@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj": {}
+    "C:\\Users\\Foxy\\source\\repos\\SelfDev\\SelfDev\\SelfDev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj": {
+    "C:\\Users\\Foxy\\source\\repos\\SelfDev\\SelfDev\\SelfDev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj",
+        "projectUniqueName": "C:\\Users\\Foxy\\source\\repos\\SelfDev\\SelfDev\\SelfDev.csproj",
         "projectName": "SelfDev",
-        "projectPath": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj",
+        "projectPath": "C:\\Users\\Foxy\\source\\repos\\SelfDev\\SelfDev\\SelfDev.csproj",
         "packagesPath": "C:\\Users\\Foxy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\obj\\",
+        "outputPath": "C:\\Users\\Foxy\\source\\repos\\SelfDev\\SelfDev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Foxy\\AppData\\Roaming\\NuGet\\NuGet.Config",
