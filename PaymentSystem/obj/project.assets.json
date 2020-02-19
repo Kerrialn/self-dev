@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\PaymentSystem.csproj",
-      "projectName": "PaymentSystem",
-      "projectPath": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\PaymentSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj",
+      "projectName": "SelfDev",
+      "projectPath": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\SelfDev.csproj",
       "packagesPath": "C:\\Users\\Foxy\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Foxy\\source\\repos\\PaymentSystem\\PaymentSystem\\obj\\",
       "projectStyle": "PackageReference",
