@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PaymentSystem
 {
@@ -10,107 +11,23 @@ namespace PaymentSystem
             var gateway = new PaymentGateway();
             gateway.TakePayment(paymentType, 350);
 
-        }
-    }
+            Console.WriteLine("--Done--");
 
-    interface IPayment
-    {
-        public void Pay(double amount);
-    }
-
-    interface IFrudCheck
-    {
-        public bool FrudCheck();
-    }
-
-    interface IProcessPayment
-    {
-        public void Process(double amount);
-    }
-
-    interface I3Dcheck
-    {
-        public bool ThreeDCheck();
-    }
-
-    class WorldPay : IPayment, I3Dcheck, IProcessPayment
-    {
-        public void Pay(double amount) {
-            Console.WriteLine($"you have successfully paid ${amount} with WorldPay");
-        }
-
-        public bool ThreeDCheck() {
-            Console.WriteLine("3D Security check: please enter your security pin");
-            var pin = Console.ReadLine();
-            return pin == "1234" ? true : false;
-        }
-
-        public void Process(double amount) {
-            if(this.ThreeDCheck() == true)
+            var shapes = new List<Shape>
             {
-                this.Pay(amount);
-            }
-        }
-    }
+                new Circle(),
+                new Triangle(),
+                new Square()
+            };
 
-    class PayPal : IPayment, I3Dcheck, IProcessPayment
-    {
-        public void Pay(double amount) {
-            Console.WriteLine($"you have successfully paid ${amount} with Paypal");
-        }
-        public bool ThreeDCheck() {
-            Console.WriteLine("3D Security check: please enter your security pin");
-            var pin = Console.ReadLine();
-            return pin == "1234" ? true : false;
-        }
-        public void Process(double amount) {
-            this.ThreeDCheck();
-            this.Pay(amount);
-        }
-    }
-
-    class ApplyPay : IPayment, I3Dcheck, IProcessPayment, IFrudCheck
-    {
-        public bool FrudCheck() {
-            Console.WriteLine("are you a fraudster?");
-            var answer = Console.ReadLine();
-            
-            if(answer == "no")
+            foreach (Shape shape in shapes)
             {
-                Console.WriteLine("shame, we are!");
-                return false;
-            }
-            else
-            {
-                Console.WriteLine("Woooo Hoooo! Let's start scamming people! ");
-                return true;
+                shape.Draw();
             }
 
-        }
-        public bool ThreeDCheck() {
-            Console.WriteLine("3D Security check: please enter your security pin");
-            var pin = Console.ReadLine();
-            return pin == "1234" ? true : false;
-        }
-        public void Pay(double amount) {
-            Console.WriteLine($"you have successfully paid ${amount} with ApplePay");
-        }
-        public void Process(double amount)
-        {
-            if (this.ThreeDCheck() == true && this.FrudCheck() == true)
-            {
-                this.Pay(amount);
-            }
-        }
-
-    }
-
-    class PaymentGateway
-    {
-        public void TakePayment(IProcessPayment paymentType, double amount)
-        {
-            paymentType.Process(amount);
+            Console.WriteLine("--Done--");
         }
     }
+
 
 }
