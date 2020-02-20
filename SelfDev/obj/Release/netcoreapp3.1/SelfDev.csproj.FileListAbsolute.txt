@@ -1,0 +1,11 @@
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.exe
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.deps.json
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.runtimeconfig.json
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.runtimeconfig.dev.json
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.dll
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\bin\Release\netcoreapp3.1\SelfDev.pdb
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\obj\Release\netcoreapp3.1\SelfDev.csprojAssemblyReference.cache
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\obj\Release\netcoreapp3.1\SelfDev.AssemblyInfoInputs.cache
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\obj\Release\netcoreapp3.1\SelfDev.AssemblyInfo.cs
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\obj\Release\netcoreapp3.1\SelfDev.dll
+C:\Users\Foxy\source\repos\SelfDev\SelfDev\obj\Release\netcoreapp3.1\SelfDev.pdb

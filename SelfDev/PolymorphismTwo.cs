@@ -4,16 +4,16 @@ using System.Text;
 
 namespace SelfDev
 {
-
-
     interface ICar
     {
+        public string Name { get; set; }
         void Drive();
     }
 
-
     class BMW : ICar
     {
+        public string Name { get; set; } 
+
         public void Drive()
         {
             Console.WriteLine("You are driving a BMW");
@@ -22,6 +22,7 @@ namespace SelfDev
 
     class Audi : ICar
     {
+        public string Name { get; set; }
         public void Drive()
         {
             Console.WriteLine("You are driving a Audi");
@@ -30,6 +31,7 @@ namespace SelfDev
 
     class Mercedes : ICar
     {
+        public string Name { get; set; }
         public void Drive()
         {
             Console.WriteLine("You are driving a Mercedes");

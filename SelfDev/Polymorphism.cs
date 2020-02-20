@@ -7,7 +7,7 @@ namespace SelfDev
     
     class Shape
     {
-        virtual public void Draw() { }
+        virtual public void Draw(){}
     }
 
     class Circle : Shape

@@ -7,12 +7,14 @@ namespace SelfDev
     {
         static void Main(string[] args)
         {
-            var paymentType = new ApplyPay();
+            
+            var user = new User("Tom", 3214, "CZ001");
+            var paymentType = new ApplyPay(user);
             var gateway = new PaymentGateway();
             gateway.TakePayment(paymentType, 350);
 
             Console.WriteLine("--Done--");
-
+            /*
             var shapes = new List<Shape>
             {
                 new Circle(),
@@ -41,6 +43,23 @@ namespace SelfDev
             }
 
             Console.WriteLine("--Done--");
+   
+            Exercises.IWontCheatOnTheExam();
+
+            Console.WriteLine("--Done--");
+
+            Exercises.DrawPyramid();
+
+            Console.WriteLine("--Done--");
+
+            Exercises.Loopy();
+
+            Console.WriteLine("--Done--");
+
+            Exercises.ChessBoard();
+
+            */
+
         }
     }
 
